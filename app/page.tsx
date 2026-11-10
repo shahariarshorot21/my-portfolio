@@ -1,4 +1,3 @@
-
 const skills = [
   "HTML",
   "CSS",
@@ -45,11 +44,21 @@ export default function Home() {
           </a>
 
           <div className="hidden items-center gap-7 text-sm text-gray-300 md:flex">
-            <a href="#home" className="hover:text-cyan-400">Home</a>
-            <a href="#about" className="hover:text-cyan-400">About</a>
-            <a href="#skills" className="hover:text-cyan-400">Skills</a>
-            <a href="#projects" className="hover:text-cyan-400">Projects</a>
-            <a href="#education" className="hover:text-cyan-400">Education</a>
+            <a href="#home" className="hover:text-cyan-400">
+              Home
+            </a>
+            <a href="#about" className="hover:text-cyan-400">
+              About
+            </a>
+            <a href="#skills" className="hover:text-cyan-400">
+              Skills
+            </a>
+            <a href="#projects" className="hover:text-cyan-400">
+              Projects
+            </a>
+            <a href="#education" className="hover:text-cyan-400">
+              Education
+            </a>
           </div>
 
           <a
@@ -82,9 +91,8 @@ export default function Home() {
 
         <p className="mt-6 max-w-2xl text-base leading-8 text-gray-400 md:text-lg">
           Passionate about building responsive and user-friendly web
-          applications using modern web technologies. I enjoy learning,
-          solving problems, and turning ideas into real-world digital
-          experiences.
+          applications using modern web technologies. I enjoy learning, solving
+          problems, and turning ideas into real-world digital experiences.
         </p>
 
         <div className="mt-9 flex flex-wrap gap-4">
@@ -122,17 +130,17 @@ export default function Home() {
 
           <div className="grid gap-10 md:grid-cols-2">
             <p className="leading-9 text-gray-400">
-              I am an aspiring Front-End Web Developer with a strong
-              foundation in HTML, CSS, JavaScript, React, and Next.js.
-              Currently, I am studying Computer Science and Technology
-              at Mymensingh Polytechnic Institute.
+              I am an aspiring Front-End Web Developer with a strong foundation
+              in HTML, CSS, JavaScript, React, and Next.js. Currently, I am
+              studying Computer Science and Technology at Mymensingh Polytechnic
+              Institute.
             </p>
 
             <p className="leading-9 text-gray-400">
               I am passionate about developing modern, responsive, and
-              user-friendly websites. I enjoy working on practical
-              projects, learning new technologies, and improving my
-              problem-solving skills.
+              user-friendly websites. I enjoy working on practical projects,
+              learning new technologies, and improving my problem-solving
+              skills.
             </p>
           </div>
         </div>
@@ -188,9 +196,7 @@ export default function Home() {
 
                 <h3 className="text-2xl font-bold">{project.title}</h3>
 
-                <p className="mt-2 text-sm text-cyan-400">
-                  {project.subtitle}
-                </p>
+                <p className="mt-2 text-sm text-cyan-400">{project.subtitle}</p>
 
                 <p className="mt-5 leading-8 text-gray-400">
                   {project.description}
@@ -238,9 +244,7 @@ export default function Home() {
           My Background
         </p>
 
-        <h2 className="mb-10 text-3xl font-bold md:text-4xl">
-          Education
-        </h2>
+        <h2 className="mb-10 text-3xl font-bold md:text-4xl">Education</h2>
 
         <div className="space-y-5">
           <div className="rounded-xl border border-white/10 bg-[#101829] p-7">
@@ -248,9 +252,7 @@ export default function Home() {
               <h3 className="text-lg font-bold">
                 Computer Science & Technology
               </h3>
-              <span className="text-sm text-cyan-400">
-                2024 – Present
-              </span>
+              <span className="text-sm text-cyan-400">2024 – Present</span>
             </div>
 
             <p className="mt-3 text-gray-400">
@@ -271,8 +273,8 @@ export default function Home() {
             </p>
 
             <p className="mt-3 text-sm text-gray-400">
-              GPA: <span className="font-bold text-cyan-400">4.83</span>
-              {" "}· Jamalpur, Bangladesh
+              GPA: <span className="font-bold text-cyan-400">4.83</span> ·
+              Jamalpur, Bangladesh
             </p>
           </div>
         </div>
@@ -290,8 +292,8 @@ export default function Home() {
           </h2>
 
           <p className="mx-auto mt-6 max-w-2xl leading-8 text-gray-400">
-            I am looking forward to new opportunities, collaborations,
-            and challenges where I can learn and contribute my skills.
+            I am looking forward to new opportunities, collaborations, and
+            challenges where I can learn and contribute my skills.
           </p>
 
           <div className="mx-auto mt-10 flex max-w-xl flex-col gap-4">
@@ -332,7 +334,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="border-t border-white/10 px-6 py-8 text-center text-sm text-gray-500">
-        © {new Date().getFullYear()} MD. SHAHARIAR HOSSEN. All Rights Reserved.
+        © <p>© 2026 MD. SHAHARIAR HOSSEN. All Rights Reserved.</p>
       </footer>
     </main>
   );
